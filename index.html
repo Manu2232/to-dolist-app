@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Today's Tasks</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Today's tasks</h1>
+    <button class="theme" id="theme" aria-label="Switch between light and dark mode">Dark mode</button>
+  </header>
+
+  <p class="quote" id="quote" aria-live="polite"></p>
+
+  <div class="add">
+    <input id="input" type="text" placeholder="What needs doing?" maxlength="120" aria-label="New task">
+    <button id="addBtn">Add</button>
+  </div>
+
+  <div class="count" id="count"></div>
+  <ul id="list"></ul>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
